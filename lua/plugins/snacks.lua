@@ -20,6 +20,7 @@ return {
 		--statuscolumn = { enabled = true },
 		--words = { enabled = true },
 		lazygit = { enabled = true },
+		terminal = { enabled = true },
 	},
 	keys = {
 		{
@@ -56,6 +57,13 @@ return {
 				Snacks.lazygit()
 			end,
 			desc = "Lazygit",
+		},
+		{
+			"<leader>t",
+			function()
+				Snacks.terminal()
+			end,
+			desc = "Terminal",
 		},
 	},
 }
