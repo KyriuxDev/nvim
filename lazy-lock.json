@@ -13,5 +13,6 @@
   "nvim-treesitter": { "branch": "main", "commit": "539abf6da5ee8702e37b82cc953131dadd570da2" },
   "nvim-web-devicons": { "branch": "master", "commit": "d7462543c9e366c0d196c7f67a945eaaf5d99414" },
   "snacks.nvim": { "branch": "main", "commit": "ad9ede6a9cddf16cedbd31b8932d6dcdee9b716e" },
-  "treesitter-modules.nvim": { "branch": "main", "commit": "34e50df1c49376592788dcb245683e2f43444444" }
+  "treesitter-modules.nvim": { "branch": "main", "commit": "34e50df1c49376592788dcb245683e2f43444444" },
+  "which-key.nvim": { "branch": "main", "commit": "3aab2147e74890957785941f0c1ad87d0a44c15a" }
 }

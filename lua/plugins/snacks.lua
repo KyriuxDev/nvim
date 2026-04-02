@@ -19,11 +19,43 @@ return {
 		--scroll = { enabled = true },
 		--statuscolumn = { enabled = true },
 		--words = { enabled = true },
+		lazygit = { enabled = true },
 	},
 	keys = {
-		{ "<leader><space>", function() Snacks.picker.smart() end, desc = "Smart Find Files" },
-		{ "<leader>,", function() Snacks.picker.buffers() end, desc = "Buffers" },
-		{ "<leader>/", function() Snacks.picker.grep() end, desc = "Grep" },
-		{ "<leader>e", function() Snacks.explorer() end, desc = "File Explorer" },
-	}
+		{
+			"<leader><space>",
+			function()
+				Snacks.picker.smart()
+			end,
+			desc = "Smart Find Files",
+		},
+		{
+			"<leader>,",
+			function()
+				Snacks.picker.buffers()
+			end,
+			desc = "Buffers",
+		},
+		{
+			"<leader>/",
+			function()
+				Snacks.picker.grep()
+			end,
+			desc = "Grep",
+		},
+		{
+			"<leader>e",
+			function()
+				Snacks.explorer()
+			end,
+			desc = "File Explorer",
+		},
+		{
+			"<leader>gg",
+			function()
+				Snacks.lazygit()
+			end,
+			desc = "Lazygit",
+		},
+	},
 }
